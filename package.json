@@ -1,0 +1,59 @@
+{
+  "name": "koa-middleware",
+  "version": "1.0.0",
+  "description": "A middleware-modules collection for building a typical RESTful web-service using koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel index.es6.js > index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunmile/koa-middleware.git"
+  },
+  "keywords": [
+    "koa",
+    "middleware"
+  ],
+  "author": "WuSisu <i@wusisu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sunmile/koa-middleware/issues"
+  },
+  "homepage": "https://github.com/Sunmile/koa-middleware#readme",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "babel-preset-stage-1": "^6.1.18",
+    "babel-preset-stage-2": "^6.1.18",
+    "babel-preset-stage-3": "^6.1.18"
+  },
+  "dependencies": {
+    "babel-cli": "^6.3.17",
+    "kcors": "^1.0.1",
+    "koa-body": "^1.3.0",
+    "koa-compress": "^1.0.8",
+    "koa-convert": "^1.2.0",
+    "koa-etag": "^2.1.0",
+    "koa-favicon": "^1.2.0",
+    "koa-fresh": "0.0.3",
+    "koa-passport": "^2.0.1",
+    "koa-response-time": "^1.0.2",
+    "koa-router": "^7.0.0",
+    "koa-static": "^1.5.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0",
+      "stage-1",
+      "stage-2",
+      "stage-3"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  }
+}
