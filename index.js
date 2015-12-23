@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.parseBody = exports.statics = exports.cors = exports.favicon = exports.responseTime = exports.etag = exports.fresh = exports.compress = undefined;
+exports.Router = exports.parseBody = exports.statics = exports.cors = exports.favicon = exports.responseTime = exports.etag = exports.fresh = exports.compress = undefined;
 
 var _koaConvert = require('koa-convert');
 
@@ -41,6 +41,10 @@ var _koaBody = require('koa-body');
 
 var _koaBody2 = _interopRequireDefault(_koaBody);
 
+var _koaRouter = require('koa-router');
+
+var _koaRouter2 = _interopRequireDefault(_koaRouter);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var makeConvert = function makeConvert(old) {
@@ -58,4 +62,5 @@ var favicon = exports.favicon = makeConvert(_koaFavicon2.default);
 var cors = exports.cors = makeConvert(_kcors2.default);
 var statics = exports.statics = makeConvert(_koaStatic2.default);
 var parseBody = exports.parseBody = makeConvert(_koaBody2.default);
+exports.Router = _koaRouter2.default;
 

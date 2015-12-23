@@ -23,3 +23,4 @@ import koaStatic from 'koa-static'
 export const statics = makeConvert(koaStatic)
 import koaBody from 'koa-body'
 export const parseBody = makeConvert(koaBody)
+export Router from 'koa-router'

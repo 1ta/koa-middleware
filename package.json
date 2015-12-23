@@ -1,6 +1,6 @@
 {
   "name": "koa-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A middleware-modules collection for building a typical RESTful web-service using koa",
   "main": "index.js",
   "scripts": {
