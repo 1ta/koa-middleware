@@ -1,4 +1,5 @@
 # koa-middleware
+[DEPRECATED] Replaced by (koa-middleware-package)[https://github.com/1ta/koa-middleware-package]
 This is a [koa2](https://github.com/koajs/koa/tree/v2.x) middleware collection
 which use [koa-convert](https://github.com/gyson/koa-convert) to convert a koa1
 middleware into a koa2 one if needed.  
