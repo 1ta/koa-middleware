@@ -1,5 +1,5 @@
 # koa-middleware
-[DEPRECATED] Replaced by [koa-middleware-package](https://github.com/1ta/koa-middleware-package)
+[DEPRECATED] Replaced by [@wusisu/koa-middlewares](https://github.com/wusisu/koa-middlewares)
 
 ----
 
